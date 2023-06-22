@@ -1,1 +1,1 @@
-"# Projekt_ST1_RWRW" 
+# Pliki z kodem są dostępne w folderze Assets\Scripts
