@@ -1,0 +1,517 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1686576191381546, "dur": 4860232, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1686576191381850, "dur": 4996, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1686576191386849, "dur": 48608, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1686576191435461, "dur": 1036612, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1686576192472076, "dur": 3753044, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1686576196225123, "dur": 16654, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1686576196245439, "dur": 15, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
+{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 35942, "tid": 1, "ts": 1686576192227485, "dur": 217053, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1686576192228709, "dur": 64336, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1686576192421393, "dur": 5487, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1686576192426885, "dur": 17637, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1686576192427784, "dur": 15855, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1686576192451928, "dur": 1608, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1686576192450962, "dur": 2609, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1686576196245896, "dur": 363, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1686576192539115, "dur":1976, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686576192541099, "dur":62, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1686576192541172, "dur":22, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1686576192541194, "dur":181, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1686576192541401, "dur":632, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686576192542033, "dur":2, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686576196170753, "dur":15, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686576196170768, "dur":12, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686576196170780, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686576196170783, "dur":11, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686576196170794, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686576196170797, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686576196170804, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686576196170806, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686576196170813, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686576196170834, "dur":2, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686576196170859, "dur":1154, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1686576192543910, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686576192543911, "dur":13029, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686576192556941, "dur":207, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Rexma/Desktop/asdasd/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1686576192557152, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686576192567103, "dur":17967, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Rexma/Desktop/asdasd/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1686576192585216, "dur":43589, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Rexma/Desktop/asdasd/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1686576192628809, "dur":10, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686576192631863, "dur":2918, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Rexma/Desktop/asdasd/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1686576192634936, "dur":199, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Rexma/Desktop/asdasd/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1686576192635139, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686576192635147, "dur":10881, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Rexma/Desktop/asdasd/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1686576192646221, "dur":197, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Rexma/Desktop/asdasd/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":1, "ts":1686576192646421, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686576192646428, "dur":2309, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Rexma/Desktop/asdasd/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":1, "ts":1686576192648878, "dur":196155, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Rexma/Desktop/asdasd/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686576192845059, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686576192845242, "dur":11744, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Rexma/Desktop/asdasd/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686576192857119, "dur":231920, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Rexma/Desktop/asdasd/ST1_Project_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686576193089043, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686576193089051, "dur":5643, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Rexma/Desktop/asdasd/ST1_Project_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686576193094717, "dur":252591, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Rexma/Desktop/asdasd/ST1_Project_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686576193347313, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686576193347322, "dur":3023, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Rexma/Desktop/asdasd/ST1_Project_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686576193350369, "dur":19653, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Rexma/Desktop/asdasd/ST1_Project_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686576193370027, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686576193370035, "dur":1698, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Rexma/Desktop/asdasd/ST1_Project_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686576193371756, "dur":51334, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Rexma/Desktop/asdasd/ST1_Project_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686576193423095, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686576193423102, "dur":1638, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Rexma/Desktop/asdasd/ST1_Project_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686576193424764, "dur":105969, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Rexma/Desktop/asdasd/ST1_Project_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686576193530738, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686576193530746, "dur":2510, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Rexma/Desktop/asdasd/ST1_Project_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686576193533280, "dur":124138, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Rexma/Desktop/asdasd/ST1_Project_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686576193657427, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686576193657435, "dur":2187, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Rexma/Desktop/asdasd/ST1_Project_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686576193659649, "dur":44929, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Rexma/Desktop/asdasd/ST1_Project_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686576193704584, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686576193704592, "dur":1518, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Rexma/Desktop/asdasd/ST1_Project_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686576193706130, "dur":65279, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Rexma/Desktop/asdasd/ST1_Project_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686576193771414, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686576193771426, "dur":1781, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Rexma/Desktop/asdasd/ST1_Project_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686576193773231, "dur":44742, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Rexma/Desktop/asdasd/ST1_Project_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686576193817978, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686576193817986, "dur":2144, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Rexma/Desktop/asdasd/ST1_Project_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686576193820156, "dur":55175, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Rexma/Desktop/asdasd/ST1_Project_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686576193875335, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686576193875343, "dur":1743, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Rexma/Desktop/asdasd/ST1_Project_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686576193877112, "dur":44035, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Rexma/Desktop/asdasd/ST1_Project_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686576193921152, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686576193921181, "dur":2142, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Rexma/Desktop/asdasd/ST1_Project_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686576193923348, "dur":30820, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Rexma/Desktop/asdasd/ST1_Project_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686576193954171, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686576193954178, "dur":7435, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Rexma/Desktop/asdasd/ST1_Project_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686576193961635, "dur":70015, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Rexma/Desktop/asdasd/ST1_Project_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686576194031654, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686576194031682, "dur":1785, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Rexma/Desktop/asdasd/ST1_Project_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686576194033491, "dur":58571, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Rexma/Desktop/asdasd/ST1_Project_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686576194092066, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686576194092074, "dur":3976, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Rexma/Desktop/asdasd/ST1_Project_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686576194096101, "dur":65776, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Rexma/Desktop/asdasd/ST1_Project_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686576194161882, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686576194161890, "dur":28442, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Rexma/Desktop/asdasd/ST1_Project_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686576194190354, "dur":45361, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Rexma/Desktop/asdasd/ST1_Project_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686576194235719, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686576194235726, "dur":1564, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Rexma/Desktop/asdasd/ST1_Project_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686576194237312, "dur":58061, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Rexma/Desktop/asdasd/ST1_Project_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686576194295378, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686576194295386, "dur":1462, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Rexma/Desktop/asdasd/ST1_Project_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686576194296865, "dur":21166, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Rexma/Desktop/asdasd/ST1_Project_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686576194318035, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686576194318043, "dur":1486, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Rexma/Desktop/asdasd/ST1_Project_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686576194319558, "dur":31803, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Rexma/Desktop/asdasd/ST1_Project_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686576194351365, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686576194351374, "dur":1537, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Rexma/Desktop/asdasd/ST1_Project_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686576194352932, "dur":28557, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Rexma/Desktop/asdasd/ST1_Project_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686576194381492, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686576194381499, "dur":1551, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Rexma/Desktop/asdasd/ST1_Project_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686576194383074, "dur":151959, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Rexma/Desktop/asdasd/ST1_Project_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686576194535037, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686576194535058, "dur":3970, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Rexma/Desktop/asdasd/ST1_Project_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686576194539054, "dur":89914, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Rexma/Desktop/asdasd/ST1_Project_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686576194628973, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686576194628981, "dur":2258, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Rexma/Desktop/asdasd/ST1_Project_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686576194631261, "dur":239790, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Rexma/Desktop/asdasd/ST1_Project_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686576194871055, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686576194871063, "dur":2093, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Rexma/Desktop/asdasd/ST1_Project_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686576194873177, "dur":182050, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Rexma/Desktop/asdasd/ST1_Project_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686576195055232, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686576195055240, "dur":2974, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Rexma/Desktop/asdasd/ST1_Project_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686576195058237, "dur":45222, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Rexma/Desktop/asdasd/ST1_Project_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686576195103464, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686576195103473, "dur":7900, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Rexma/Desktop/asdasd/ST1_Project_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686576195111394, "dur":623927, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Rexma/Desktop/asdasd/ST1_Project_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686576195735325, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686576195735333, "dur":1861, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Rexma/Desktop/asdasd/ST1_Project_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686576195737216, "dur":140921, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Rexma/Desktop/asdasd/ST1_Project_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686576195878142, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686576195878150, "dur":2311, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Rexma/Desktop/asdasd/ST1_Project_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686576195880484, "dur":147505, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Rexma/Desktop/asdasd/ST1_Project_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686576196027993, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686576196028001, "dur":58792, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Rexma/Desktop/asdasd/ST1_Project_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686576196086812, "dur":83911, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686576192543028, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686576192543029, "dur":13116, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686576192556157, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1686576192556165, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686576192556844, "dur":810, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1686576192557658, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Rexma/Desktop/asdasd/ST1_Project_Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1686576192557685, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686576192559084, "dur":4047, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Rexma/Desktop/asdasd/ST1_Project_Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1686576192563133, "dur":216, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Rexma/Desktop/asdasd/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1686576192563352, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686576192564638, "dur":8049, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Rexma/Desktop/asdasd/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1686576192573007, "dur":9749, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Rexma/Desktop/asdasd/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1686576192582761, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686576192582769, "dur":1974, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Rexma/Desktop/asdasd/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1686576192584890, "dur":155, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Rexma/Desktop/asdasd/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1686576192585048, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686576192585775, "dur":1935, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Rexma/Desktop/asdasd/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1686576192587941, "dur":46086, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Rexma/Desktop/asdasd/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1686576192634032, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686576192634056, "dur":9609, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Rexma/Desktop/asdasd/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1686576192643823, "dur":156, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Rexma/Desktop/asdasd/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1686576192643983, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686576192644098, "dur":3388, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Rexma/Desktop/asdasd/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1686576192647772, "dur":50238, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Rexma/Desktop/asdasd/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686576192698014, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686576192700976, "dur":5227, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Rexma/Desktop/asdasd/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686576192706340, "dur":41153, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Rexma/Desktop/asdasd/ST1_Project.exe" }}
+,{ "pid":12345, "tid":2, "ts":1686576192747498, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686576192747504, "dur":5468, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Rexma/Desktop/asdasd/ST1_Project.exe" }}
+,{ "pid":12345, "tid":2, "ts":1686576192752993, "dur":155, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Rexma/Desktop/asdasd/ST1_Project_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":2, "ts":1686576192753151, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686576192753636, "dur":38690, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Rexma/Desktop/asdasd/ST1_Project_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":2, "ts":1686576192792633, "dur":45352, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Rexma/Desktop/asdasd/ST1_Project_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686576192837990, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686576192838463, "dur":2344, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Rexma/Desktop/asdasd/ST1_Project_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686576192840829, "dur":47952, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Rexma/Desktop/asdasd/ST1_Project_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686576192888786, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686576192888794, "dur":2117, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Rexma/Desktop/asdasd/ST1_Project_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686576192890934, "dur":138252, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Rexma/Desktop/asdasd/ST1_Project_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686576193029191, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686576193029198, "dur":1720, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Rexma/Desktop/asdasd/ST1_Project_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686576193030940, "dur":312329, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Rexma/Desktop/asdasd/ST1_Project_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686576193343273, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686576193343282, "dur":1845, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Rexma/Desktop/asdasd/ST1_Project_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686576193345158, "dur":38738, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Rexma/Desktop/asdasd/ST1_Project_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686576193383901, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686576193383908, "dur":1874, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Rexma/Desktop/asdasd/ST1_Project_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686576193385809, "dur":109934, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Rexma/Desktop/asdasd/ST1_Project_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686576193495748, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686576193495756, "dur":1837, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Rexma/Desktop/asdasd/ST1_Project_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686576193497618, "dur":105790, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Rexma/Desktop/asdasd/ST1_Project_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686576193603464, "dur":7, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686576193603479, "dur":1606, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Rexma/Desktop/asdasd/ST1_Project_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686576193605127, "dur":20787, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Rexma/Desktop/asdasd/ST1_Project_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686576193625919, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686576193625927, "dur":1513, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Rexma/Desktop/asdasd/ST1_Project_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686576193627474, "dur":42745, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Rexma/Desktop/asdasd/ST1_Project_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686576193670223, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686576193670231, "dur":35273, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Rexma/Desktop/asdasd/ST1_Project_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686576193705524, "dur":112551, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Rexma/Desktop/asdasd/ST1_Project_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686576193818078, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686576193818084, "dur":2449, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Rexma/Desktop/asdasd/ST1_Project_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686576193820552, "dur":48697, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Rexma/Desktop/asdasd/ST1_Project_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686576193869253, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686576193869261, "dur":2588, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Rexma/Desktop/asdasd/ST1_Project_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686576193871873, "dur":52416, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Rexma/Desktop/asdasd/ST1_Project_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686576193924293, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686576193924301, "dur":1843, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Rexma/Desktop/asdasd/ST1_Project_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686576193926165, "dur":30918, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Rexma/Desktop/asdasd/ST1_Project_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686576193957088, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686576193957096, "dur":5154, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Rexma/Desktop/asdasd/ST1_Project_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686576193962274, "dur":68469, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Rexma/Desktop/asdasd/ST1_Project_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686576194030747, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686576194030755, "dur":1918, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Rexma/Desktop/asdasd/ST1_Project_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686576194032698, "dur":55510, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Rexma/Desktop/asdasd/ST1_Project_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686576194088213, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686576194088222, "dur":2305, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Rexma/Desktop/asdasd/ST1_Project_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686576194090550, "dur":20459, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Rexma/Desktop/asdasd/ST1_Project_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686576194111014, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686576194111023, "dur":2054, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Rexma/Desktop/asdasd/ST1_Project_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686576194113104, "dur":133775, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Rexma/Desktop/asdasd/ST1_Project_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686576194246884, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686576194246913, "dur":1998, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Rexma/Desktop/asdasd/ST1_Project_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686576194248934, "dur":42214, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Rexma/Desktop/asdasd/ST1_Project_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686576194291152, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686576194291161, "dur":1739, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Rexma/Desktop/asdasd/ST1_Project_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686576194292923, "dur":233213, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Rexma/Desktop/asdasd/ST1_Project_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686576194526141, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686576194526149, "dur":2151, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Rexma/Desktop/asdasd/ST1_Project_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686576194528322, "dur":144218, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Rexma/Desktop/asdasd/ST1_Project_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686576194672544, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686576194672552, "dur":1932, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Rexma/Desktop/asdasd/ST1_Project_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686576194674515, "dur":426878, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Rexma/Desktop/asdasd/ST1_Project_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686576195101397, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686576195101405, "dur":3196, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Rexma/Desktop/asdasd/ST1_Project_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686576195104624, "dur":56418, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Rexma/Desktop/asdasd/ST1_Project_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686576195161046, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686576195161054, "dur":11859, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Rexma/Desktop/asdasd/ST1_Project_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686576195172935, "dur":603377, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Rexma/Desktop/asdasd/ST1_Project_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686576195776316, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686576195776323, "dur":3133, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Rexma/Desktop/asdasd/ST1_Project_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686576195779476, "dur":386308, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Rexma/Desktop/asdasd/ST1_Project_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686576196165788, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686576196165796, "dur":4603, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Rexma/Desktop/asdasd/ST1_Project_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686576196170420, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":2, "ts":1686576196170422, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686576192543946, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686576192543947, "dur":12208, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686576192556158, "dur":85139, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Rexma/Desktop/asdasd/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":3, "ts":1686576192641301, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686576192643128, "dur":3004, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Rexma/Desktop/asdasd/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":3, "ts":1686576192646276, "dur":189, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Rexma/Desktop/asdasd/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":3, "ts":1686576192646467, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686576192646473, "dur":9909, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Rexma/Desktop/asdasd/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":3, "ts":1686576192656551, "dur":1399049, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Rexma/Desktop/asdasd/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686576194055605, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686576194055611, "dur":33984, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Rexma/Desktop/asdasd/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686576194089745, "dur":49413, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Rexma/Desktop/asdasd/ST1_Project_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686576194139163, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686576194139171, "dur":6072, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Rexma/Desktop/asdasd/ST1_Project_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686576194145270, "dur":72688, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Rexma/Desktop/asdasd/ST1_Project_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686576194217962, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686576194217970, "dur":4530, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Rexma/Desktop/asdasd/ST1_Project_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686576194222555, "dur":114787, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Rexma/Desktop/asdasd/ST1_Project_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686576194337368, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686576194337376, "dur":1486, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Rexma/Desktop/asdasd/ST1_Project_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686576194338883, "dur":66384, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Rexma/Desktop/asdasd/ST1_Project_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686576194405272, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686576194405280, "dur":1589, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Rexma/Desktop/asdasd/ST1_Project_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686576194406890, "dur":51475, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Rexma/Desktop/asdasd/ST1_Project_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686576194458370, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686576194458378, "dur":3947, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Rexma/Desktop/asdasd/ST1_Project_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686576194462347, "dur":90428, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Rexma/Desktop/asdasd/ST1_Project_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686576194552780, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686576194552788, "dur":1487, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Rexma/Desktop/asdasd/ST1_Project_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686576194554295, "dur":77791, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Rexma/Desktop/asdasd/ST1_Project_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686576194632090, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686576194632097, "dur":1883, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Rexma/Desktop/asdasd/ST1_Project_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686576194634003, "dur":178699, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Rexma/Desktop/asdasd/ST1_Project_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686576194812707, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686576194812715, "dur":2099, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Rexma/Desktop/asdasd/ST1_Project_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686576194814837, "dur":168352, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Rexma/Desktop/asdasd/ST1_Project_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686576194983193, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686576194983201, "dur":2487, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Rexma/Desktop/asdasd/ST1_Project_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686576194985709, "dur":95705, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Rexma/Desktop/asdasd/ST1_Project_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686576195081418, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686576195081426, "dur":13588, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Rexma/Desktop/asdasd/ST1_Project_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686576195095035, "dur":170951, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Rexma/Desktop/asdasd/ST1_Project_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686576195265991, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686576195265999, "dur":2507, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Rexma/Desktop/asdasd/ST1_Project_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686576195268529, "dur":452300, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Rexma/Desktop/asdasd/ST1_Project_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686576195720834, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686576195720842, "dur":1466, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Rexma/Desktop/asdasd/ST1_Project_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686576195722336, "dur":255693, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Rexma/Desktop/asdasd/ST1_Project_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686576195978033, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686576195978041, "dur":3690, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Rexma/Desktop/asdasd/ST1_Project_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686576195981752, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Rexma/Desktop/asdasd/ST1_Project_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":3, "ts":1686576195981768, "dur":8, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686576195981912, "dur":1981, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Rexma/Desktop/asdasd/ST1_Project_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":3, "ts":1686576195983915, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Rexma/Desktop/asdasd/ST1_Project_Data/sharedassets6.assets" }}
+,{ "pid":12345, "tid":3, "ts":1686576195983930, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686576195983936, "dur":2129, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Rexma/Desktop/asdasd/ST1_Project_Data/sharedassets6.assets" }}
+,{ "pid":12345, "tid":3, "ts":1686576195986086, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Rexma/Desktop/asdasd/ST1_Project_Data/sharedassets5.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1686576195986101, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686576195986106, "dur":4426, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Rexma/Desktop/asdasd/ST1_Project_Data/sharedassets5.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1686576195990554, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Rexma/Desktop/asdasd/ST1_Project_Data/sharedassets5.assets" }}
+,{ "pid":12345, "tid":3, "ts":1686576195990568, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686576195990574, "dur":1348, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Rexma/Desktop/asdasd/ST1_Project_Data/sharedassets5.assets" }}
+,{ "pid":12345, "tid":3, "ts":1686576195991945, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Rexma/Desktop/asdasd/ST1_Project_Data/sharedassets4.resource" }}
+,{ "pid":12345, "tid":3, "ts":1686576195991960, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686576195991966, "dur":4032, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Rexma/Desktop/asdasd/ST1_Project_Data/sharedassets4.resource" }}
+,{ "pid":12345, "tid":3, "ts":1686576195996020, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Rexma/Desktop/asdasd/ST1_Project_Data/sharedassets4.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1686576195996035, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686576195996041, "dur":2580, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Rexma/Desktop/asdasd/ST1_Project_Data/sharedassets4.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1686576195998643, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Rexma/Desktop/asdasd/ST1_Project_Data/sharedassets4.assets" }}
+,{ "pid":12345, "tid":3, "ts":1686576195998658, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686576195998664, "dur":1984, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Rexma/Desktop/asdasd/ST1_Project_Data/sharedassets4.assets" }}
+,{ "pid":12345, "tid":3, "ts":1686576196000669, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Rexma/Desktop/asdasd/ST1_Project_Data/sharedassets3.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1686576196000711, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686576196000717, "dur":2427, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Rexma/Desktop/asdasd/ST1_Project_Data/sharedassets3.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1686576196003165, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Rexma/Desktop/asdasd/ST1_Project_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":3, "ts":1686576196003179, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686576196003184, "dur":2352, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Rexma/Desktop/asdasd/ST1_Project_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":3, "ts":1686576196005559, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Rexma/Desktop/asdasd/ST1_Project_Data/sharedassets2.resource" }}
+,{ "pid":12345, "tid":3, "ts":1686576196005589, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686576196005594, "dur":4144, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Rexma/Desktop/asdasd/ST1_Project_Data/sharedassets2.resource" }}
+,{ "pid":12345, "tid":3, "ts":1686576196009763, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Rexma/Desktop/asdasd/ST1_Project_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1686576196009778, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686576196009784, "dur":6610, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Rexma/Desktop/asdasd/ST1_Project_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1686576196016416, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Rexma/Desktop/asdasd/ST1_Project_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":3, "ts":1686576196016432, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686576196016454, "dur":1674, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Rexma/Desktop/asdasd/ST1_Project_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":3, "ts":1686576196018150, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Rexma/Desktop/asdasd/ST1_Project_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1686576196018166, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686576196018172, "dur":21667, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Rexma/Desktop/asdasd/ST1_Project_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1686576196039865, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Rexma/Desktop/asdasd/ST1_Project_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":3, "ts":1686576196039880, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686576196039886, "dur":1653, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Rexma/Desktop/asdasd/ST1_Project_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":3, "ts":1686576196041559, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Rexma/Desktop/asdasd/ST1_Project_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":3, "ts":1686576196041595, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686576196041602, "dur":6179, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Rexma/Desktop/asdasd/ST1_Project_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":3, "ts":1686576196047803, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Rexma/Desktop/asdasd/ST1_Project_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1686576196047817, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686576196047823, "dur":7958, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Rexma/Desktop/asdasd/ST1_Project_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1686576196055806, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Rexma/Desktop/asdasd/ST1_Project_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":3, "ts":1686576196055822, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686576196055828, "dur":2189, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Rexma/Desktop/asdasd/ST1_Project_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":3, "ts":1686576196058041, "dur":101, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Rexma/Desktop/asdasd/ST1_Project_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":3, "ts":1686576196058144, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686576196058163, "dur":2239, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Rexma/Desktop/asdasd/ST1_Project_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":3, "ts":1686576196060478, "dur":99, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Rexma/Desktop/asdasd/ST1_Project_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":3, "ts":1686576196060591, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686576196060597, "dur":1447, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Rexma/Desktop/asdasd/ST1_Project_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":3, "ts":1686576196062065, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Rexma/Desktop/asdasd/ST1_Project_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1686576196062086, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686576196062092, "dur":1960, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Rexma/Desktop/asdasd/ST1_Project_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1686576196064074, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Rexma/Desktop/asdasd/ST1_Project_Data/resources.assets" }}
+,{ "pid":12345, "tid":3, "ts":1686576196064101, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686576196064108, "dur":2317, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Rexma/Desktop/asdasd/ST1_Project_Data/resources.assets" }}
+,{ "pid":12345, "tid":3, "ts":1686576196066460, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Rexma/Desktop/asdasd/ST1_Project_Data/level6" }}
+,{ "pid":12345, "tid":3, "ts":1686576196066476, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686576196066481, "dur":1501, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Rexma/Desktop/asdasd/ST1_Project_Data/level6" }}
+,{ "pid":12345, "tid":3, "ts":1686576196068002, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Rexma/Desktop/asdasd/ST1_Project_Data/level5" }}
+,{ "pid":12345, "tid":3, "ts":1686576196068016, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686576196068023, "dur":1667, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Rexma/Desktop/asdasd/ST1_Project_Data/level5" }}
+,{ "pid":12345, "tid":3, "ts":1686576196069713, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Rexma/Desktop/asdasd/ST1_Project_Data/level4" }}
+,{ "pid":12345, "tid":3, "ts":1686576196069726, "dur":11, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686576196069743, "dur":1552, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Rexma/Desktop/asdasd/ST1_Project_Data/level4" }}
+,{ "pid":12345, "tid":3, "ts":1686576196071315, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Rexma/Desktop/asdasd/ST1_Project_Data/level3" }}
+,{ "pid":12345, "tid":3, "ts":1686576196071327, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686576196071333, "dur":1659, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Rexma/Desktop/asdasd/ST1_Project_Data/level3" }}
+,{ "pid":12345, "tid":3, "ts":1686576196073014, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Rexma/Desktop/asdasd/ST1_Project_Data/level2" }}
+,{ "pid":12345, "tid":3, "ts":1686576196073028, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686576196073033, "dur":1496, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Rexma/Desktop/asdasd/ST1_Project_Data/level2" }}
+,{ "pid":12345, "tid":3, "ts":1686576196074548, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Rexma/Desktop/asdasd/ST1_Project_Data/level1" }}
+,{ "pid":12345, "tid":3, "ts":1686576196074562, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686576196074567, "dur":1816, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Rexma/Desktop/asdasd/ST1_Project_Data/level1" }}
+,{ "pid":12345, "tid":3, "ts":1686576196076404, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Rexma/Desktop/asdasd/ST1_Project_Data/level0" }}
+,{ "pid":12345, "tid":3, "ts":1686576196076429, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686576196076435, "dur":1688, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Rexma/Desktop/asdasd/ST1_Project_Data/level0" }}
+,{ "pid":12345, "tid":3, "ts":1686576196078144, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Rexma/Desktop/asdasd/ST1_Project_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":3, "ts":1686576196078160, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686576196078166, "dur":1708, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Rexma/Desktop/asdasd/ST1_Project_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":3, "ts":1686576196079897, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Rexma/Desktop/asdasd/ST1_Project_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":3, "ts":1686576196079913, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686576196079919, "dur":2211, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Rexma/Desktop/asdasd/ST1_Project_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":3, "ts":1686576196082162, "dur":99, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Rexma/Desktop/asdasd/ST1_Project_Data/boot.config" }}
+,{ "pid":12345, "tid":3, "ts":1686576196082263, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686576196082269, "dur":27698, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Rexma/Desktop/asdasd/ST1_Project_Data/boot.config" }}
+,{ "pid":12345, "tid":3, "ts":1686576196109991, "dur":60570, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686576192543831, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686576192543832, "dur":13369, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686576192557202, "dur":11692, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Rexma/Desktop/asdasd/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1686576192568898, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686576192569073, "dur":10522, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Rexma/Desktop/asdasd/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1686576192579778, "dur":162, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Rexma/Desktop/asdasd/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1686576192579944, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686576192579951, "dur":7050, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Rexma/Desktop/asdasd/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1686576192587182, "dur":319, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Rexma/Desktop/asdasd/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1686576192587504, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686576192587738, "dur":3930, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Rexma/Desktop/asdasd/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1686576192591821, "dur":149, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Rexma/Desktop/asdasd/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1686576192591973, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686576192591981, "dur":2244, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Rexma/Desktop/asdasd/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1686576192594384, "dur":172, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Rexma/Desktop/asdasd/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1686576192594559, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686576192595331, "dur":11675, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Rexma/Desktop/asdasd/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1686576192608838, "dur":18604, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Rexma/Desktop/asdasd/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1686576192627447, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686576192628418, "dur":8124, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Rexma/Desktop/asdasd/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1686576192636705, "dur":16483, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Rexma/Desktop/asdasd/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1686576192653192, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686576192653201, "dur":18582, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Rexma/Desktop/asdasd/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1686576192671921, "dur":81819, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Rexma/Desktop/asdasd/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":4, "ts":1686576192753743, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686576192753749, "dur":2138, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Rexma/Desktop/asdasd/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":4, "ts":1686576192756020, "dur":85224, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Rexma/Desktop/asdasd/ST1_Project_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686576192841247, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686576192841412, "dur":5569, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Rexma/Desktop/asdasd/ST1_Project_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686576192847005, "dur":66590, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Rexma/Desktop/asdasd/ST1_Project_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686576192913599, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686576192913608, "dur":11494, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Rexma/Desktop/asdasd/ST1_Project_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686576192925124, "dur":162482, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Rexma/Desktop/asdasd/ST1_Project_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686576193087611, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686576193087619, "dur":5119, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Rexma/Desktop/asdasd/ST1_Project_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686576193092766, "dur":247812, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Rexma/Desktop/asdasd/ST1_Project_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686576193340583, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686576193340662, "dur":1903, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Rexma/Desktop/asdasd/ST1_Project_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686576193342590, "dur":23520, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Rexma/Desktop/asdasd/ST1_Project_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686576193366115, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686576193366123, "dur":1439, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Rexma/Desktop/asdasd/ST1_Project_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686576193367582, "dur":39890, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Rexma/Desktop/asdasd/ST1_Project_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686576193407477, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686576193407485, "dur":1482, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Rexma/Desktop/asdasd/ST1_Project_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686576193408992, "dur":43533, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Rexma/Desktop/asdasd/ST1_Project_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686576193452530, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686576193452538, "dur":2945, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Rexma/Desktop/asdasd/ST1_Project_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686576193455504, "dur":19824, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Rexma/Desktop/asdasd/ST1_Project_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686576193475333, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686576193475341, "dur":1560, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Rexma/Desktop/asdasd/ST1_Project_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686576193476921, "dur":60289, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Rexma/Desktop/asdasd/ST1_Project_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686576193537215, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686576193537224, "dur":7414, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Rexma/Desktop/asdasd/ST1_Project_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686576193544660, "dur":229546, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Rexma/Desktop/asdasd/ST1_Project_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686576193774210, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686576193774219, "dur":1623, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Rexma/Desktop/asdasd/ST1_Project_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686576193775862, "dur":85213, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Rexma/Desktop/asdasd/ST1_Project_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686576193861080, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686576193861088, "dur":2234, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Rexma/Desktop/asdasd/ST1_Project_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686576193863344, "dur":25262, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Rexma/Desktop/asdasd/ST1_Project_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686576193888610, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686576193888618, "dur":2547, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Rexma/Desktop/asdasd/ST1_Project_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686576193891188, "dur":60384, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Rexma/Desktop/asdasd/ST1_Project_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686576193951576, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686576193951584, "dur":2176, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Rexma/Desktop/asdasd/ST1_Project_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686576193953783, "dur":48084, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Rexma/Desktop/asdasd/ST1_Project_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686576194001871, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686576194001879, "dur":2644, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Rexma/Desktop/asdasd/ST1_Project_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686576194004546, "dur":57198, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Rexma/Desktop/asdasd/ST1_Project_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686576194061749, "dur":14, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686576194061770, "dur":2579, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Rexma/Desktop/asdasd/ST1_Project_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686576194064372, "dur":47416, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Rexma/Desktop/asdasd/ST1_Project_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686576194111792, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686576194111800, "dur":2643, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Rexma/Desktop/asdasd/ST1_Project_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686576194114465, "dur":56869, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Rexma/Desktop/asdasd/ST1_Project_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686576194171339, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686576194171348, "dur":19325, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Rexma/Desktop/asdasd/ST1_Project_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686576194190691, "dur":43014, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Rexma/Desktop/asdasd/ST1_Project_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686576194233709, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686576194233717, "dur":2409, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Rexma/Desktop/asdasd/ST1_Project_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686576194236147, "dur":40210, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Rexma/Desktop/asdasd/ST1_Project_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686576194276361, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686576194276370, "dur":1573, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Rexma/Desktop/asdasd/ST1_Project_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686576194277966, "dur":20799, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Rexma/Desktop/asdasd/ST1_Project_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686576194298769, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686576194298777, "dur":1734, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Rexma/Desktop/asdasd/ST1_Project_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686576194300563, "dur":21036, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Rexma/Desktop/asdasd/ST1_Project_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686576194321603, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686576194321622, "dur":1454, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Rexma/Desktop/asdasd/ST1_Project_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686576194323097, "dur":54648, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Rexma/Desktop/asdasd/ST1_Project_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686576194377749, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686576194377757, "dur":3550, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Rexma/Desktop/asdasd/ST1_Project_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686576194381330, "dur":66467, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Rexma/Desktop/asdasd/ST1_Project_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686576194447801, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686576194447809, "dur":1974, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Rexma/Desktop/asdasd/ST1_Project_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686576194449805, "dur":41287, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Rexma/Desktop/asdasd/ST1_Project_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686576194491097, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686576194491106, "dur":1428, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Rexma/Desktop/asdasd/ST1_Project_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686576194492554, "dur":192372, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Rexma/Desktop/asdasd/ST1_Project_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686576194684931, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686576194684939, "dur":1866, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Rexma/Desktop/asdasd/ST1_Project_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686576194686827, "dur":79482, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Rexma/Desktop/asdasd/ST1_Project_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686576194766313, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686576194766321, "dur":2179, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Rexma/Desktop/asdasd/ST1_Project_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686576194768528, "dur":199459, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Rexma/Desktop/asdasd/ST1_Project_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686576194967992, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686576194968000, "dur":10755, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Rexma/Desktop/asdasd/ST1_Project_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686576194978779, "dur":143108, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Rexma/Desktop/asdasd/ST1_Project_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686576195121892, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686576195121899, "dur":2242, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Rexma/Desktop/asdasd/ST1_Project_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686576195124162, "dur":320062, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Rexma/Desktop/asdasd/ST1_Project_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686576195444228, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686576195444236, "dur":82095, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Rexma/Desktop/asdasd/ST1_Project_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686576195526355, "dur":242809, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Rexma/Desktop/asdasd/ST1_Project_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686576195769169, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686576195769177, "dur":3989, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Rexma/Desktop/asdasd/ST1_Project_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686576195773187, "dur":89419, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Rexma/Desktop/asdasd/ST1_Project_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686576195862611, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686576195862620, "dur":5103, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Rexma/Desktop/asdasd/ST1_Project_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686576195867744, "dur":285550, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Rexma/Desktop/asdasd/ST1_Project_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686576196153298, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686576196153307, "dur":3675, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Rexma/Desktop/asdasd/ST1_Project_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686576196157004, "dur":13516, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686576196173501, "dur":3253, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1686576196246319, "dur": 1253, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1686576196245424, "dur": 2237, "ph": "X", "name": "Write chrome-trace events", "args": {} },
